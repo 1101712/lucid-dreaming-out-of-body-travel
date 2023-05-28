@@ -1,14 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Poppins:wght@300&display=swap');
 
-body {
-    font-family: PT Sans, Arial;
-    font-weight: 300;
-}
-
 * {
     margin: 0;
     padding: 0;
     border: 0;
+}
+
+body {
+    font-family: PT Sans, Arial;
+    font-weight: 300;
+    color: #3a3a3a;
+}
+
+/*headings and logo*/
+
+h1,
+h2 {
+    font-family: PT Sans Caption, Arial;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text color: #555d50;
+    text-align: center;
+}
+
+#logo {
+
+    font-size: 250%;
 }
 
 ul {
@@ -18,7 +35,7 @@ ul {
 }
 
 a {
-    border: 2px solid black;
+    border: 2px solid #555d50;
     border-radius: 50%;
     width: 5rem;
     padding: 5px 10px;
@@ -27,7 +44,7 @@ a {
     display: inline-block;
     margin: 4px 2px;
     border-radius: 16px;
-    font-family: Lato;
+    font-family: PT Sans, Arial;
 }
 
 li {
@@ -49,13 +66,4 @@ img {
     margin-left: auto;
     margin-right: auto;
 
-}
-
-h1 {
-    font-family: Arial, sans-serif;
-    text-align: center;
-}
-
-figure {
-    margin-top: 40px;
 }
