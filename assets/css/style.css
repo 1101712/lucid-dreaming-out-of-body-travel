@@ -24,7 +24,6 @@ h2 {
 }
 
 #logo {
-
     font-size: 250%;
 }
 
@@ -32,6 +31,12 @@ h2 {
 #menu2,
 #menu1 {
     font-size: 110%;
+}
+
+#menu1,
+#menu2,
+#logo {
+    line-height: 75px;
 }
 
 #menu2 li,
@@ -47,10 +52,9 @@ h2 {
     color: inherit;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+#menu2 a:hover,
+#menu1 a:hover {
+    border-bottom: 1px solid;
 }
 
 #home1,
@@ -68,8 +72,44 @@ ul {
     font-family: PT Sans, Arial;
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
 
 li {
     display: inline;
 
 }
+
+/*hero image*/
+
+#hero-zoom {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url("../images/lucid-dreaming-other-reality-jpg.jpeg") no-repeat center center;
+
+    /* animates zoom on loading page*/
+    animation-name: hero-zoom1;
+    animation-duration: 6s;
+    /*duration 6 sec*/
+    ;
+    animation-fill-mode: forwards;
+}
+
+/*zoom for hero image*/
+@keyframes hero-zoom1 {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
