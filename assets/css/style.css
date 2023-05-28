@@ -19,7 +19,7 @@ h2 {
     font-family: PT Sans Caption, Arial;
     letter-spacing: 3px;
     text-transform: uppercase;
-    text color: #555d50;
+    color: #555d50;
     text-align: center;
 }
 
@@ -29,27 +29,23 @@ h2 {
 }
 
 /*navigation links*/
-#menu2 {
-    font-size: 110%;
-}
-
-#menu2 li {
-    float: right;
-    list-style-type: none;
-    margin-right: 30px;
-}
-
+#menu2,
 #menu1 {
     font-size: 110%;
 }
 
+#menu2 li,
 #menu1 li {
     float: right;
     list-style-type: none;
     margin-right: 30px;
 }
 
-
+#menu2 a,
+#menu1 a {
+    text-decoration: none;
+    color: inherit;
+}
 
 ul {
     list-style-type: none;
@@ -57,19 +53,7 @@ ul {
     padding: 0;
 }
 
-#home1 {
-    border: 2px solid #555d50;
-    border-radius: 50%;
-    width: 5rem;
-    padding: 5px 10px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    margin: 4px 2px;
-    border-radius: 16px;
-    font-family: PT Sans, Arial;
-}
-
+#home1,
 #home2 {
     border: 2px solid #555d50;
     border-radius: 50%;
@@ -77,12 +61,15 @@ ul {
     padding: 5px 10px;
     text-align: center;
     text-decoration: none;
+    color: inherit;
     display: inline-block;
     margin: 4px 2px;
     border-radius: 16px;
     font-family: PT Sans, Arial;
 }
 
+
 li {
     display: inline;
+
 }
