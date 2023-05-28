@@ -1,6 +1,7 @@
 body {
     font-family: Arial;
 }
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -42,7 +43,7 @@ img {
 }
 
 h1 {
-    font-family: Roboto, sans-serif;
+    font-family: Arial, sans-serif;
     text-align: center;
 }
 
