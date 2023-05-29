@@ -23,6 +23,14 @@ h2 {
     text-align: center;
 }
 
+p {
+    font-family: PT Sans Caption, Arial;
+    text-transform: italics;
+    color: #555d50;
+    margin: 20px;
+    text-align: justify;
+}
+
 #logo {
     font-size: 250%;
 }
@@ -88,6 +96,7 @@ li {
 #hero-zoom {
     height: 600px;
     width: 100%;
+    margin-bottom: 30px;
     overflow: hidden;
 }
 
