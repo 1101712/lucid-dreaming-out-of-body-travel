@@ -156,8 +156,19 @@ hr {
 }
 
 /* images of dream and out of body pages*/
-
-
+.welcome {
+    height: 600px;
+}
+.left-about{
+    padding-top: 30px;
+    width: 49%;
+    float: left;
+}
+.right-about {
+    padding-top: 30px;
+    width: 49%;
+    float: right;
+}
 /*footer*/
 
 .contact li {
