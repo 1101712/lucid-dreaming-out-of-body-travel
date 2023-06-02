@@ -33,6 +33,7 @@ p {
     color: #555d50;
     margin-left: 0;
     text-align: justify;
+    line-height: 2;
 }
 
 #logo {
@@ -174,7 +175,7 @@ hr {
 }
 
 .right-about {
-    padding-top: o;
+    padding-right: 20px;
     margin: 30px 20px 20px 20px;
     width: 48%;
     float: right;
@@ -240,4 +241,72 @@ hr {
 
 }
 
-/*media queries}*/
+/*media queries*/
+/*large*/
+@media screen and (min-width: 1511px) {
+    .right-about {
+        width: 45%;
+        float: right;
+        padding: 20;
+
+    }
+
+}
+
+/* medium to large*/
+@media screen and (max-width: 1510px) {
+    .right-about {
+        width: 42%;
+        float: right;
+        padding-right: 20px;
+    }
+
+    p {
+        line-height: 1.6;
+        text-align: justify;
+
+    }
+
+    #logo,
+    #logo1,
+    #logo2 {
+        font-size: 200%;
+    }
+
+    h2 {
+        font-size: 80%;
+    }
+}
+
+/*minimum to medium*/
+
+@media screen and (max-width: 810px) {
+    .right-about {
+        width: 90%;
+        float: left;
+        padding-left: 5px;
+        padding-right: 20px;
+    }
+
+    p {
+        line-height: 1.2;
+        font-size: 80%;
+        text-align: justify;
+        padding-right: 10px;
+    }
+
+    #logo,
+    #logo1,
+    #logo2 {
+        font-size: 150%;
+    }
+
+    h2 {
+        font-size: 80%;
+    }
+
+    #menu1,
+    #menu2 {
+        font-size: 70%;
+    }
+}
