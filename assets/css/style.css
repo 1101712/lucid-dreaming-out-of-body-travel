@@ -31,7 +31,8 @@ p {
     font-family: PT Sans Caption, Arial;
     text-transform: italics;
     color: #555d50;
-    margin-left: 0;
+    margin-left: 20px;
+    margin-right: 20px;
     text-align: justify;
     line-height: 2;
 }
@@ -177,6 +178,8 @@ hr {
     float: right;
 }
 #movie {
+   display: block;
+  margin: auto;
 
 }
 /*footer*/
@@ -267,7 +270,11 @@ hr {
         text-align: justify;
 
     }
-
+#menu1,
+    #menu2,
+    #menu3 {
+        font-size: 90%;
+    }
     #logo,
     #logo1,
     #logo2,
@@ -328,6 +335,7 @@ hr {
     #menu3 {
         font-size: 70%;
     }
+    #movie {
+        width: 80%;
+    }
 }
-
-/*embeded video*/
