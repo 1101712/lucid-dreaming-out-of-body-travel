@@ -42,6 +42,7 @@ p {
 }
 
 /*navigation links*/
+#menu3, 
 #menu2,
 #menu1 {
     font-size: 110%;
@@ -49,30 +50,31 @@ p {
 }
 
 #logo1,
-#logo2 {
+#logo2, logo3 {
     font-size: 250%;
 }
-
+#menu3 li,
 #menu2 li,
 #menu1 li {
     float: right;
     list-style-type: none;
     margin-right: 30px;
 }
-
+#menu3 a,
 #menu2 a,
 #menu1 a {
     text-decoration: none;
     color: inherit;
 }
-
+#menu3 a:hover,
 #menu2 a:hover,
 #menu1 a:hover {
     border-bottom: 1px solid;
 }
 
 #home1,
-#home2 {
+#home2,
+#home1 {
     background-color: rgb(239, 222, 205);
     border-radius: 50%;
     width: 6rem;
@@ -87,7 +89,8 @@ p {
 }
 
 #hover1 a:hover,
-#hover2 a:hover {
+#hover2 a:hover,
+#hover3 a:hover {
     border: 1px solid
 }
 
@@ -148,11 +151,7 @@ hr {
     border-color: none;
     border-width: none;
     border-radius: 50%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
+    margin: 2% 43%;
 }
 
 #key-im {
@@ -162,7 +161,7 @@ hr {
     border-radius: 50%;
 }
 
-/* images of dream and out of body pages*/
+/* images and video of dream and out of body pages*/
 .dream {
     height: 600px;
 }
@@ -255,6 +254,9 @@ hr {
 
     }
 
+    p {
+        line-height: 2.4;
+    }
 }
 
 /* medium to large*/
@@ -273,7 +275,8 @@ hr {
 
     #logo,
     #logo1,
-    #logo2 {
+    #logo2,
+    #logo3 {
         font-size: 200%;
     }
 
@@ -282,53 +285,54 @@ hr {
     }
 
     #key-container {
-        margin: 2% 40%;
+        margin: 3% 39%;
+
     }
 
-    #key-im {
+
+}
+
+/*minimum to medium*/
+
+@media screen and (max-width: 816px) {
+    .right-about {
         width: 90%;
-        height: 90%;
-        padding: 0;
+        float: left;
+        padding-left: 5px;
+        padding-right: 20px;
     }
 
-    /*minimum to medium*/
-
-    @media screen and (max-width: 810px) {
-        .right-about {
-            width: 90%;
-            float: left;
-            padding-left: 5px;
-            padding-right: 20px;
-        }
-
-        #key-container {
-            width: 80%
-        }
-
-        #key-im {
-            width: 80%;
-            height: 80%;
-        }
-
-        p {
-            line-height: 1.2;
-            font-size: 80%;
-            text-align: justify;
-            padding-right: 10px;
-        }
-
-        #logo,
-        #logo1,
-        #logo2 {
-            font-size: 150%;
-        }
-
-        h2 {
-            font-size: 80%;
-        }
-
-        #menu1,
-        #menu2 {
-            font-size: 70%;
-        }
+    .left-about {
+        width: 80%;
     }
+
+    p {
+        line-height: 1.2;
+        font-size: 80%;
+        text-align: justify;
+        padding-right: 10px;
+    }
+
+    #key-container {
+        margin: 3% 26%;
+    }
+
+    #logo,
+    #logo1,
+    #logo2,
+    #logo3 {
+        font-size: 150%;
+    }
+
+    h2 {
+        font-size: 80%;
+    }
+
+    #menu1,
+    #menu2,
+    #menu3 {
+        font-size: 70%;
+    }
+}
+
+/*embeded video*/
