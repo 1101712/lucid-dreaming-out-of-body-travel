@@ -24,15 +24,15 @@ h2 {
     text-transform: uppercase;
     color: #555d50;
     text-align: center;
-    margin: 30px 20px 0 20px;
+    margin:30px 20px 0 20px;
 }
 
 p {
     font-family: PT Sans Caption, Arial;
     text-transform: italics;
     color: #555d50;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 2%;
+    margin-right: 2%;
     text-align: justify;
     line-height: 2;
 }
@@ -41,35 +41,29 @@ p {
     font-size: 250%;
 
 }
+.logo1
+{
+    font-size: 250%;
+
+}
 
 /*navigation links*/
-#menu3, 
-#menu2,
-#menu1 {
+.menu {
     font-size: 110%;
     line-height: 75px;
 }
 
-#logo1,
-#logo2, logo3 {
-    font-size: 250%;
-}
-#menu3 li,
-#menu2 li,
-#menu1 li {
+ .menu li {
     float: right;
     list-style-type: none;
     margin-right: 30px;
 }
-#menu3 a,
-#menu2 a,
-#menu1 a {
+.menu a {
     text-decoration: none;
     color: inherit;
 }
-#menu3 a:hover,
-#menu2 a:hover,
-#menu1 a:hover {
+.menu a:hover
+ {
     border-bottom: 1px solid;
 }
 
@@ -180,16 +174,26 @@ hr {
 #movie {
    display: block;
   margin: auto;
+  padding-top: 2%;
 
 }
+#under-movie {
+    margin: 2%;
+    text-size: 110%;
+}
 /*footer*/
+.contact {
+    margin: auto;
 
+}
+.contact {
+    margin: 2% 2% 5% 2%;
+}
 .contact li {
     height: 150px;
     display: inline;
 
-    margin-left: 30px;
-    margin-bottom: 30px;
+    margin: 5% 2% 5% 1%;
 
 }
 
@@ -241,6 +245,21 @@ hr {
     margin: 30px;
 
 }
+/* submit buttom*/
+#subbut {
+    background-color: rgb(239, 222, 205);
+    border-radius: 16px;
+    color: inherit;
+    text-align: center;
+    font-size: inherit;
+    padding: 10px;
+    width: 230px;
+}
+.check-p {
+    background-color: rgb(239, 222, 205); 
+    margin:1% 60% 2% -2%; 
+    text-align: center;
+}
 
 /*media queries*/
 /*large*/
@@ -270,18 +289,13 @@ hr {
         text-align: justify;
 
     }
-#menu1,
-    #menu2,
-    #menu3 {
+.menu, .logo1 {
         font-size: 90%;
     }
-    #logo,
-    #logo1,
-    #logo2,
-    #logo3 {
+    #logo {
         font-size: 200%;
     }
-
+    
     h2 {
         font-size: 80%;
     }
@@ -291,8 +305,6 @@ hr {
 
     }
 
-
-}
 
 /*minimum to medium*/
 
@@ -319,10 +331,10 @@ hr {
         margin: 3% 26%;
     }
 
-    #logo,
-    #logo1,
-    #logo2,
-    #logo3 {
+    #logo {
+        font-size: 150%;
+    }
+    .logo1 {
         font-size: 150%;
     }
 
@@ -330,12 +342,12 @@ hr {
         font-size: 80%;
     }
 
-    #menu1,
-    #menu2,
-    #menu3 {
+    .menu {
         font-size: 70%;
     }
     #movie {
         width: 80%;
+        
+    
     }
 }
