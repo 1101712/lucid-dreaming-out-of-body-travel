@@ -25,6 +25,12 @@ This should intrigue users and stimulate their interest in getting more detailed
 + The Why Not page 
    + This page should encourage users to consider lucid dreaming as their new expierence. To do this, a video with a short text below it is embedded in the page. Design the video allow users to initiate and control the playing of it. 
    + At the end, a short survey is embedded on site in the form of a radiobattons. By doing this, I make it clear to site visitors that their opinion is important to me.
++
+
+    The Footer
+        The footer section includes link to our other site and the Email address of the author of the site.The link will open to a new tab to allow easy navigation for the user.
+        The footer is valuable to the user as it encourages them to keep connected via social media
+
    
 ## UX
 ### Site goals
@@ -61,7 +67,7 @@ As a part of my commitment to the disabled community, all relevant images have a
 ## Testing
 The site was tested in Mozilla-Firefox, Microsoft-Edge and Google-Chrome, on different screensizes and devices. Reduced and increased, no problems seen. Analysis test was run. 
 everything was clear on the CSS.
-On the HTML test only one error was found , "Charset-"utf-8"><link rel="icon" which research showed was not a problem with the code.
+On the HTML test [official W3C validator](https://validator.w3.org/) only one error was found , "Charset-"utf-8"><link rel="icon" which research showed was not a problem with the code.
 
 see following link:- http://jigsaw.w3.org/css-validator/validator?lang=de&profile=css3svg&uri=https%3A%2F%2F1101712-lucid-dreaming-o-ubdmkv1q76.us2.codeanyapp.com%2F%23%2Fworkspaces%2Flucid-dreaming-out-of-body-travel&usermedium=all&vextwarning=&warning=1
 or
@@ -91,9 +97,9 @@ Manual testing of all links and necessary features was done in previously mentio
 
 ## Manual testing of user stories
 ### Expectation:
-V visitor should understand the main purpose of the site. 
+ A visitor should understand the main purpose of the site. 
 ### Result:
-As a visitor, I understand that this is a website to help me to learn about lucid dreams.
+As a visitor, I understand that this is a website to help me to learn about lucid dreaming.
 ### Expectation:
 A visitor needs easy intuitive navigation around the site.
 ### Result
@@ -107,7 +113,7 @@ A visitor want video does't play at startup and be full controlled.
 ### Result
 As a visitor I see that want video does't play at startup and is full controlled.
 ### Expectation
-A visitor needs a link to enable themselves to do a self assessment.
+A visitor needs a link to enable themselves to do a self-assessment.
 ### Result
 As a visitor I find a link to predisposition self-test.
 ## Deployment
@@ -124,6 +130,7 @@ Branch". The page should refresh automatically;
 + The rest of the text was composed by me and is my intellectual propertyю
 + The idea how to add an onklick event to button was taken from [w3docs](3https://www.w3docs.com/snippets/html/how-to-create-an-html-button-that-acts-like-a-link.html)
 + The instruction how to creat zoom-effect to Hero image was taken from [special tutorium from CodeInstitute](https://www.youtube.com/watch?v=nAqcFCD7SD8&t=246s&ab_channel=MediaUploa)
++ The instruction how to creat README file was taken from CodeInstitute Educational materials. [CodeInstituteREADME template](https://github.com/Code-Institute-Solutions/readme-template), Codeinstitute README presentation and [markdownlivepreview](https://markdownlivepreview.com/). 
 + This reference list would not be complete without mentioning the beginner resourses for front-end at
 [W3Schools](https://w3schools.com)
 + And extensive notes and tips hosted at the [Mozilla Foundation]
@@ -131,7 +138,7 @@ Branch". The page should refresh automatically;
 + And, of course, a thanks goes
 to the friendly part of the [StackOverFlow](https://stackoverflow.com), for helping to pinpoint and fix the
 little bugs and features in my code. 
-## Media
+### Media
 1. Unless stated otherwise, the image for Lucid-Dreaming page I have AI-generated for non-profit use (education/student projects)
 via the [MidJourney](https://www.midjourney.com) neural network;
 2. The other images including Home page Hero image are licenced for non-profit use (education/student projects) via [DreamsTime](https://www.dreamstime.com/).
@@ -155,5 +162,5 @@ created by the internationally acclaimed typeface designer [Alexandra Korolkova]
 However, should the project grow big enough to be translated into east-Asian or south-Asian languages,
 new fonts shall be added to support, for example, Japanese or Thai fonts.
 ## Acknowledgements
-- 
-- etc.
+- to Kay Welfare for great psyhological support and motivation.
+- to my daughter Anna and my partner Stefan to great support, motivation and helping to resolve the technical questions.

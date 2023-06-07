@@ -289,8 +289,11 @@ hr {
         text-align: justify;
 
     }
-.menu, .logo1 {
-        font-size: 90%;
+    .menu{
+        font-size:100%;
+    }
+    .logo1 {
+        font-size: 150%;
     }
     #logo {
         font-size: 200%;
@@ -332,10 +335,10 @@ hr {
     }
 
     #logo {
-        font-size: 150%;
+        font-size: 120%;
     }
     .logo1 {
-        font-size: 150%;
+        font-size: 100%;
     }
 
     h2 {
