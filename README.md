@@ -1,35 +1,38 @@
 # LUCID DREAMING
 
-Lucid Dreaming is a site that hopes to help people learn what are lucid dreams  and what science says about them. With the help of a test on a link on a third-party website, you can find out your individual predisposition to lucid dreams. My site hopes to encourage people to get their own personal experience of awareness in a dream. To do this, there is a link to a third-party website with detailed step-by-step instructions.
+Lucid Dreaming is a site that hopes to help people learn and understand what lucid dreams are about and what science says about them. With the help of a test on a link on a third-party website, you can find out your individual predisposition to lucid dreams. My site hopes to encourage people to get their own personal experience of awareness in a dream. To do this, there is a link to a third-party website with detailed step-by-step instructions.
 
 ![This are screenshots of pages of the website](assets/images/screen.jpg "This are screenshots of pages of the website")
  ## Features
 My site has 4 pages. All of them are devoted to the topic of lucid dreams.
-The main page contains the main image with the zoom effect and common information about lucid dreams.
-The second page provides information about what lucid dreaming is, techniques for starting practice and links to official free books.
-The third page informs the visitor about the scientific side of this issue.
-The fourth page hopes to keep visitors motivated to try the practice of lucid dreaming. There is also a video on this page.
+The main page contains the main image with a zoom effect and common information about lucid dreams.<br>
+The second page provides information about what lucid dreaming is, techniques for starting practice and links to official free books.<br>
+The third page informs the visitor about the scientific side of this issue.<br>
+The fourth page hopes to keep visitors motivated by trying the practice of lucid dreaming. There is also a video on this page.
 
 ## Existing Features
 
 + Navigation Bar
-  + Featured on all four page, the full responcive navigation bar includes links to the Home page, Lucid Dreaming page (About), A Scientists View page (Science), Why Not page (Thoughts) and is identical in each page to allow for easy navigation.
-  + This section will allow users to easily navigate across all devices without having to revert to the previous page via the "back" button.
+  + Featured on all four page, the fully responsive navigation bar includes links to the Home page, Lucid Dreaming page (Dreaming)), A Scientists View page (Science), Why Not page (Thoughts) and is identical in each page to allow for easy navigation.
+  + This section will allow users to easily navigate with all devices without having to revert to the previous page via the "back" button.
 + The landing page image
-  + The landing includes an image with an animation effect. Thanks to this, visitors of the site can feel the effect of being involved in the plot of the image, immersion in another reality, reality of lucid dreaming.
+  + The landing page includes an image with an animation effect. Thanks to this, visitors of the site can feel the effect of being involved in the plot of the image, immersion in another reality, reality of lucid dreaming.
   + Further, after a brief definition of a lucid dream, there is an image of a keyhole and three buttons below it, which duplicate navigation, but represent a more aesthetic solution in the form of buttons with more detailed text on them.
 This should intrigue users and stimulate their interest in getting more detailed information.
 + The Lucid Dreaming page 
-    + The page is designed with a Midjourney-generated image of a possible lucid dream plot. The image is followed by a description of a typical subjective experience of falling into a lucid dream. After that, the user is asked to click on the buttons, which are links to third-party sites with more detailed information. To represent their role, those buttons have an animated "hover feature" with arrows appearing when user hovers her cursor over them. These buttons will open the link in a new window, so that the user stays on the website after checking out the suggested external content.
-+ The Scientists view page is designed with an sign-kind-image. This sign should cause a subconscious association with more official information. The general concept and design of this page repeats the conceptual solution of the page described above.
+    + The page is designed with a Midjourney-generated image of a possible lucid dream plot. The image is followed by a description of a typical subjective experience of falling into a lucid dream. After that, the user is asked to click on the buttons, which are links to third-party sites with more detailed information. To represent their role, these buttons have an animated "hover feature" with arrows appearing when user hovers her cursor over them. These buttons will open the link in a new window, so that the user stays on the website after checking out the suggested external content.
++ The Scientists view page is designed with a pictogram. This sign should cause a subconscious association with more official information. The general concept and design of this page repeats the conceptual solution of the page described above.
 + The Why Not page 
-   + This page should encourage users to consider lucid dreaming as their new expierence. To do this, a video with a short text below it is embedded in the page. Design the video allow users to initiate and control the playing of it. 
+   + This page should encourage users to consider lucid dreaming as their new expierence. To do this, a video with a short text below it is embedded in the page. Using the video tool the video allow users to initiate and control the playing of it. 
    + At the end, a short survey is embedded on site in the form of a radiobattons. By doing this, I make it clear to site visitors that their opinion is important to me.
 +
 
     The Footer
-        The footer section includes link to our other site and the Email address of the author of the site.The link will open to a new tab to allow easy navigation for the user.
-        The footer is valuable to the user as it encourages them to keep connected via social media
+        The footer section includes links to our other site and the Email 
+        address of the author of the site. The link will open a new tab to allow 
+        easy navigation for the user.
+        The footer is valuable to the user as it encourages them to keep 
+        connected via social media
 
    
 ## UX
@@ -40,15 +43,14 @@ Users are also given the opportunity to
 take a test for a predisposition to lucid
 dreaming on a third-party website.The test is available on the website of the research laboratory, the results of which are published in specialized scientific journals.
 
-It is also the goal to make it easy to users to find all the nesessary and trustworthy information in one place. The site should be easily to navigate as well as aesthetically pleasing.
+It is also the goal to make it easy for users to find all the nesessary and trustworthy information in one place. The site should be easily navigated as well as aesthetically pleasing.
 
-The three types of buttons enable an intuitive UX
-1. The first type are buttons representing internal links, and they are separate from the usual navigation
-menu. The "hover feature" simply underlines the button when user hovers her cursor over them. This
+The three types of buttons enabling an intuitive UX
+1. The first type, are buttons representing internal links, and they are separate from the usual navigation menu. The "hover feature" simply underlines the button when user hovers their cursor over them. This
 highlights the fact that the button is an active link.
 2. The second type are buttons leading to other websites. To represent their role, they have an animated
 "hover feature" with arrows appearing when user hovers her cursor over them. These buttons will open
-the link in a new window, so that the user stays on the website after checking out the suggested external
+the link in a new window, so that the user returns to the website after checking out the suggested external
 content.
 3. The third type is the "Submit" button in the UX survey. It does not have a "hover feature" due to it not
 being an active link. The address for the action is taken from the example from CodeInstitute given to verify the form is being submitted correctly. To keep site open, used "_blank" to open in new window.
@@ -57,8 +59,8 @@ the action. So since there is no "form" to be submitted, the button will now ope
 "action".
 
 #### Dupes of the navigation
-Stilistically speaking, the navigation should be attached to the top of the page. However, on the main
-(index) page you will see that the navigation is duped at the bottom of the page. It was a design desicion
+Stylistically speaking, the navigation should be attached to the top of the page. However, on the main
+(index) page you will see that the navigation is duplicated at the bottom of the page. It was a design decision
 of mine,
 
 #### Accessibility
@@ -73,7 +75,7 @@ see following link:- http://jigsaw.w3.org/css-validator/validator?lang=de&profil
 or
 http://jigsaw.w3.org/css-validator/check/referer (nur für HTML/XML-Dokumente)
 ## Manual testing
-Manual testing of all links and necessary features was done in previously mentioned brousers and devices with a positive result. All pages linked correctly, all feachers worked korrectly, external links open in new window, video plays correctly including all manual controls as required.
+Manual testing of all links and necessary features was done in previously mentioned browsers and devices with a positive result. All pages linked correctly, all features worked correctly, external links open in new window, the video plays correctly including all manual controls as required.
 |Feature      |Expect        |Action      |Result      |
 |:--------- |:---------------|:---------------|:----------------|
 |Home navigation   |When clicked the home page will open |Clicked Home on the Nav bar|Home page opened when clicked|
