@@ -22,19 +22,11 @@ This should intrigue users and stimulate their interest in getting more detailed
 + The Lucid Dreaming page 
     + The page is designed with a Midjourney-generated image of a possible lucid dream plot. The image is followed by a description of a typical subjective experience of falling into a lucid dream. After that, the user is asked to click on the buttons, which are links to third-party sites with more detailed information. To represent their role, these buttons have an animated "hover feature" with arrows appearing when user hovers her cursor over them. These buttons will open the link in a new window, so that the user stays on the website after checking out the suggested external content.
 + The Scientists view page is designed with a pictogram. This sign should cause a subconscious association with more official information. The general concept and design of this page repeats the conceptual solution of the page described above.
-+ The Why Not page 
++ The Something to think about page 
    + This page should encourage users to consider lucid dreaming as their new expierence. To do this, a video with a short text below it is embedded in the page. Using the video tool the video allow users to initiate and control the playing of it. 
    + At the end, a short survey is embedded on site in the form of a radiobattons. By doing this, I make it clear to site visitors that their opinion is important to me.
-+
-
-    The Footer
-        The footer section includes links to our other site and the Email 
-        address of the author of the site. The link will open a new tab to allow 
-        easy navigation for the user.
-        The footer is valuable to the user as it encourages them to keep 
-        connected via social media
-
-   
++ The Footer<br>
+The Footer section includes link to our other site and the Email address of the  author of this site. The link will open in a new window to allow easy navigation for the users. 
 ## UX
 ### Site goals
 The purpose of the Lucid Dreaming website is to introduce users to lucid dreaming. Those who already have experience of lucid dreams may be able to find additional detailed useful information.
