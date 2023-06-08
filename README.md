@@ -55,17 +55,16 @@ Stylistically speaking, the navigation should be attached to the top of the page
 (index) page you will see that the navigation is duplicated at the bottom of the page. It was a design decision
 of mine,
 
-#### Accessibility
-As a part of my commitment to the disabled community, all relevant images have alternative text attached to them. 
-
 ## Testing
-The site was tested in Mozilla-Firefox, Microsoft-Edge and Google-Chrome, on different screensizes and devices. Reduced and increased, no problems seen. Analysis test was run. 
-everything was clear on the CSS.
-On the HTML test [official W3C validator](https://validator.w3.org/) only one error was found , "Charset-"utf-8"><link rel="icon" which research showed was not a problem with the code.
-
-see following link:- http://jigsaw.w3.org/css-validator/validator?lang=de&profile=css3svg&uri=https%3A%2F%2F1101712-lucid-dreaming-o-ubdmkv1q76.us2.codeanyapp.com%2F%23%2Fworkspaces%2Flucid-dreaming-out-of-body-travel&usermedium=all&vextwarning=&warning=1
-or
-http://jigsaw.w3.org/css-validator/check/referer (nur für HTML/XML-Dokumente)
++ The site was tested in Mozilla-Firefox, Microsoft-Edge and Google-Chrome, on different screensizes and devices. Reduced and increased, no problems seen. 
++ HTML 
+   + [official W3C validator](https://validator.w3.org/) one error was found , "Charset-"utf-8"><link rel="icon" which research showed was not a problem with my code.
++ CSS
+   + No errors were found when passing through the [official Jigsaw validator](http://jigsaw.w3.org/css-validator/validator?lang=de&profile=css3svg&uri=https%3A%2F%2F8000-1101712-lucid-dreaming-o-ubdmkv1q76.us2.codeanyapp.com%2F&usermedium=all&vextwarning=&warning=1)
++ Accessibility
+   + I confirmed that the colors and fonts chosen are easy to read and accessible by running it through lighthouse in devtools
+![This is a screenshot of a page of the website](assets/images/screen8.jpg "This is a screenshot of page of the website")
+As a part of my commitment to the disabled community, all relevant images have alternative text attached to them. 
 ## Manual testing
 Manual testing of all links and necessary features was done in previously mentioned browsers and devices with a positive result. All pages linked correctly, all features worked correctly, external links open in new window, the video plays correctly including all manual controls as required.
 |Feature      |Expect        |Action      |Result      |
@@ -76,17 +75,17 @@ Manual testing of all links and necessary features was done in previously mentio
 |Form submit button|Form submits when submit button is clicked. The result opens in new window|Clicked the submit button on the form.| The form succesfully submitted on click. The result opened in new window|
 |Video object|User has full control from opening the page, To play upon request and not at startup|Opening the page. Play video|Video does't play at startup. The video is full controlled|
 
-![This is a screenshots of pages of the website](assets/images/screen1.jpg "This is a screenshots of pages of the website")
-![This is a screenshots of pages of the website](assets/images/screen2.jpg "This is a screenshots of pages of the website")
+![This is a screenshot of a page of the website](assets/images/screen1.jpg "This is a screenshot of a page of the website")
+![This is a screenshot of a page of the website](assets/images/screen2.jpg "This is a screenshot of a page of the website")
 
-![This is a screenshots of pages of the website](assets/images/screen3.jpg "This is a screenshots of pages of the website")
+![This is a screenshot of a page of the website](assets/images/screen3.jpg "This is a screenshot of a page of the website")
 
-![This is a screenshots of pages of the website](assets/images/screen4.jpg "This is a screenshots of pages of the website")
+![This is a screenshot of a page of the website](assets/images/screen4.jpg "This is a screenshot of a page of the website")
 
-![This is a screenshots of pages of the website](assets/images/screen5.jpg "This is a screenshots of pages of the website")
-![This is a screenshots of pages of the website](assets/images/screen6.jpg "This is a screenshots of pages of the website")
+![This is a screenshot of a page of the website](assets/images/screen5.jpg "This is a screenshot of a page of the website")
+![This is a screenshot of a page of the website](assets/images/screen6.jpg "This is a screenshot of a page of the website")
 
-![This is a screenshots of pages of the website](assets/images/screen7.jpg "This is a screenshots of pages of the website")
+![This is a screenshot of a page of the website](assets/images/screen7.jpg "This is a screenshot of a page of the website")
 
 
 ## Manual testing of user stories
@@ -110,6 +109,9 @@ As a visitor I see that want video does't play at startup and is full controlled
 A visitor needs a link to enable themselves to do a self-assessment.
 ### Result
 As a visitor I find a link to predisposition self-test.
+### Unfixed Bugs
+
+   by testing by [official W3C validator](https://validator.w3.org/) one error was found , "Charset-"utf-8"><link rel="icon". I have no idea how to fix it.
 ## Deployment
 The project was deployed to GitHub Pages using the following steps:
 1. Log in to GitHub and locate the GitHub Repository;
