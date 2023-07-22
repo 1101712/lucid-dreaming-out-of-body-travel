@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Poppins:wght@300&display=swap');
 
+/* Define a CSS variable for the main color used in the website. */
+:root {
+    --main-color: rgb(239, 222, 205);
+}
+
+/* The universal (*) selector is used here to target all HTML elements on the page.*/ 
 * {
     margin: 0;
     padding: 0;
@@ -17,8 +23,7 @@ header {
     height: 95px;
 }
 
-h1,
-h2 {
+h1, h2, #logo, .logo1 {
     font-family: PT Sans Caption, Arial;
     letter-spacing: 3px;
     text-transform: uppercase;
@@ -37,23 +42,13 @@ p {
     line-height: 2;
 }
 
-#logo {
-    font-size: 250%;
-
-}
-
-.logo1{
-    font-size: 250%;
-
-}
-
 /*navigation links*/
 .menu {
     font-size: 110%;
     line-height: 75px;
 }
 
- .menu li {
+.menu li {
     float: right;
     list-style-type: none;
     margin-right: 30px;
@@ -64,15 +59,12 @@ p {
     color: inherit;
 }
 
-.menu a:hover
- {
+.menu a:hover {
     border-bottom: 1px solid;
 }
 
-#home1,
-#home2,
-#home3 {
-    background-color: rgb(239, 222, 205);
+#home1, #home2, #home3 {
+    background-color: var(--main-color);
     border-radius: 50%;
     width: 6rem;
     padding: 5px 8px;
@@ -85,10 +77,8 @@ p {
     font-family: inherit;
 }
 
-#hover1 a:hover,
-#hover2 a:hover,
-#hover3 a:hover {
-    border: 1px solid
+#hover1 a:hover, #hover2 a:hover, #hover3 a:hover {
+    border: 1px solid;
 }
 
 ul {
@@ -107,7 +97,6 @@ hr {
 }
 
 /*hero image*/
-
 #hero-zoom {
     height: 600px;
     width: 100%;
@@ -119,12 +108,10 @@ hr {
     height: 600px;
     width: 100%;
     background: url("../images/lucid-dreaming-other-reality.jpeg") no-repeat center center;
-
     /* animates zoom on loading page*/
     animation-name: hero-zoom1;
     animation-duration: 6s;
     /*duration 6 sec*/
-    ;
     animation-fill-mode: forwards;
 }
 
@@ -159,7 +146,6 @@ hr {
 }
 
 /* images and video of dream, inter and out of body pages*/
-
 .left-about {
     padding: 0px;
     margin: 30px 0 20px 20px;
@@ -178,7 +164,6 @@ hr {
    display: block;
   margin: auto;
   padding-top: 2%;
-
 }
 
 #under-movie {
@@ -186,10 +171,9 @@ hr {
     text-size: 110%;
 }
 
-/*footer*/
+/*contact*/
 .contact {
     margin: auto;
-
 }
 
 .contact {
@@ -199,15 +183,13 @@ hr {
 .contact li {
     height: 150px;
     display: inline;
-
     margin: 5% 2% 5% 1%;
-
 }
 
 /*buttons to external link*/
 .button {
     display: inline-block;
-    background-color: rgb(239, 222, 205);
+    background-color: var(--main-color);
     border-radius: 16px;
     color: inherit;
     text-align: center;
@@ -236,7 +218,7 @@ hr {
 }
 
 .button:hover {
-    border: 1px solid
+    border: 1px solid;
 }
 
 .button:hover span {
@@ -250,12 +232,11 @@ hr {
 
 .but {
     margin: 30px;
-
 }
 
 /* submit buttom*/
 #subbut {
-    background-color: rgb(239, 222, 205);
+    background-color: var(--main-color);
     border-radius: 16px;
     color: inherit;
     text-align: center;
@@ -265,8 +246,8 @@ hr {
 }
 
 .check-p {
-    background-color: rgb(239, 222, 205); 
-    margin:1% 60% 2% -2%; 
+    background-color: var(--main-color);
+    margin:1% 60% 2% -2%;
     text-align: center;
 }
 
@@ -277,7 +258,6 @@ hr {
         width: 45%;
         float: right;
         padding: 20;
-
     }
 
     p {
@@ -296,33 +276,25 @@ hr {
     p {
         line-height: 1.6;
         text-align: justify;
-
     }
 
-    .menu{
+    .menu {
         font-size:100%;
     }
 
-    .logo1 {
+    #logo, .logo1 {
         font-size: 150%;
     }
 
-    #logo {
-        font-size: 200%;
-    }
-    
     h2 {
         font-size: 80%;
     }
 
     #key-container {
         margin: 3% 39%;
-
     }
-
-
+}
 /*minimum to medium*/
-
 @media screen and (max-width: 816px) {
     .right-about {
         width: 90%;
@@ -346,12 +318,8 @@ hr {
         margin: 3% 26%;
     }
 
-    #logo {
+    #logo, .logo1 {
         font-size: 120%;
-    }
-
-    .logo1 {
-        font-size: 100%;
     }
 
     h2 {
@@ -364,7 +332,5 @@ hr {
 
     #movie {
         width: 80%;
-        
-    
     }
 }
