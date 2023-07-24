@@ -13,7 +13,7 @@
 }
 
 body {
-    font-family: PT Sans, Arial;
+    font-family: "PT Sans", Arial;
     font-weight: 300;
     color: #3a3a3a;
 }
@@ -33,8 +33,8 @@ h1, h2, #logo, .logo1 {
 }
 
 p {
-    font-family: PT Sans Caption, Arial;
-    text-transform: italics;
+    font-family: "PT Sans Caption", Arial;
+    font-style: italic; /* corrected from text-transform */
     color: #555d50;
     margin-left: 2%;
     margin-right: 2%;
@@ -136,9 +136,7 @@ hr {
     width: 250px;
     height: 250px;
     padding: 0;
-    border-style: none;
-    border-color: none;
-    border-width: none;
+    border: none; /* corrected from border-color and border-width */
     border-radius: 50%;
     margin: 2% 43%;
 }
@@ -173,7 +171,7 @@ hr {
 
 #under-movie {
     margin: 2%;
-    text-size: 110%;
+    font-size: 110%;
 }
 
 /*contact*/
@@ -262,7 +260,7 @@ hr {
     .right-about {
         width: 45%;
         float: right;
-        padding: 20;
+        padding: 20px; /* corrected from padding: 20 */
     }
 
     p {
