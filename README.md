@@ -3,31 +3,7 @@
 Lucid Dreaming is a site that hopes to help people learn and understand what lucid dreams are about and what science says about them. With the help of a test on a link on a third-party website, you can find out your individual predisposition to lucid dreams. My site hopes to encourage people to get their own personal experience of awareness in a dream. To do this, there is a link to a third-party website with detailed step-by-step instructions.
 
 ![This are screenshots of pages of the website](assets/images/pages.jpg "This are screenshots of pages of the website")
- ## Features
-My site has 4 pages. All of them are devoted to the topic of lucid dreams.
-The main page contains the main image with a zoom effect and common information about lucid dreams.<br>
-The second page provides information about what lucid dreaming is, techniques for starting practice and links to official free books.<br>
-The third page informs the visitor about the scientific side of this issue.<br>
-The fourth page hopes to keep visitors motivated by trying the practice of lucid dreaming. There is also a video on this page.
 
-## Existing Features
-
-+ Navigation Bar
-  + Featured on all four page, the fully responsive navigation bar includes links to the Home page, Lucid Dreaming page (Dreaming)), A Scientists View page (Science), Why Not page (Thoughts) and is identical in each page to allow for easy navigation.
-  + This section will allow users to easily navigate with all devices without having to revert to the previous page via the "back" button.
-+ The landing page image
-  + The landing page includes an image with an animation effect. Thanks to this, visitors of the site can feel the effect of being involved in the plot of the image, immersion in another reality, reality of lucid dreaming.
-  + Further, after a brief definition of a lucid dream, there is an image of a keyhole and three buttons below it, which duplicate navigation, but represent a more aesthetic solution in the form of buttons with more detailed text on them.
-This should intrigue users and stimulate their interest in getting more detailed information.
-+ The Lucid Dreaming page 
-    + The page is designed with a Midjourney-generated image of a possible lucid dream plot. The image is followed by a description of a typical subjective experience of falling into a lucid dream. After that, the user is asked to click on the buttons, which are links to third-party sites with more detailed information. To represent their role, these buttons have an animated "hover feature" with arrows appearing when user hovers her cursor over them. These buttons will open the link in a new window, so that the user stays on the website after checking out the suggested external content.
-+ The Scientists view page is designed with a pictogram. This sign should cause a subconscious association with more official information. The general concept and design of this page repeats the conceptual solution of the page described above.
-+ The Something to think about page 
-   + This page should encourage users to consider lucid dreaming as their new expierence. To do this, a video with a short text below it is embedded in the page. Using the video tool the video allow users to initiate and control the playing of it. 
-   + At the end, a short survey is embedded on site in the form of a radiobattons. By doing this, I make it clear to site visitors that their opinion is important to me.
-+ The Footer<br>
-The Footer section includes link to our other site and the Email address of the  author of this site. The link will open in a new window to allow easy navigation for the users. 
-## UX
 ### Site goals
 The purpose of the Lucid Dreaming website is to introduce users to lucid dreaming. Those who already have experience of lucid dreams may be able to find additional detailed useful information.
 
@@ -37,23 +13,61 @@ dreaming on a third-party website.The test is available on the website of the re
 
 It is also the goal to make it easy for users to find all the nesessary and trustworthy information in one place. The site should be easily navigated as well as aesthetically pleasing.
 
-The three types of buttons enabling an intuitive UX
-1. The first type, are buttons representing internal links, and they are separate from the usual navigation menu. The "hover feature" simply underlines the button when user hovers their cursor over them. This
-highlights the fact that the button is an active link.
-2. The second type are buttons leading to other websites. To represent their role, they have an animated
-"hover feature" with arrows appearing when user hovers her cursor over them. These buttons will open
-the link in a new window, so that the user returns to the website after checking out the suggested external
-content.
-3. The third type is the "Submit" button in the UX survey. It does not have a "hover feature" due to it not
-being an active link. The address for the action is taken from the example from CodeInstitute given to verify the form is being submitted correctly. To keep site open, used "_blank" to open in new window.
-- Another aspect is that by default, buttons are not links. To override this by buttons on Lucid-Dreaming and Out-Of-Body pages, I used my CSS knowledge. In order to make my buttons to also be active links, I have used the method **get** and pasted the link in
-the action. So since there is no "form" to be submitted, the button will now open the link mentioned in the
-"action".
+## Features
 
-#### Dupes of the navigation
-Stylistically speaking, the navigation should be attached to the top of the page. However, on the main
-(index) page you will see that the navigation is duplicated at the bottom of the page. It was a design decision
-of mine,
+The Lucid Dreaming site features four pages, each dedicated to different aspects of lucid dreaming.
+
+### Home Page
+
+The landing page includes an engaging main image with a zoom animation effect that draws visitors into the world of lucid dreaming. Below the main image, visitors will find a definition of lucid dreaming, an intriguing keyhole image, and three distinct buttons which guide users towards more detailed information.
+
+### Lucid Dreaming Page
+
+This page features an engaging image produced by Midjourney, which portrays a potential lucid dream scenario. The image is complemented by a description of the typical experience when entering a lucid dream. Further down the page, animated buttons lead users to third-party sites with more in-depth information on lucid dreaming.
+
+### Scientist's View Page
+
+The third page of the site, designed with an authoritative pictogram, provides users with scientific perspectives on lucid dreaming. The design concept of this page mirrors the structure of the Lucid Dreaming Page.
+
+### Something to Think About Page
+
+The final page aims to motivate visitors to embark on the journey of lucid dreaming. It features an embedded video accompanied by an enlightening text. This page also includes a short survey, inviting users to share their opinions on the subject.
+
+### Navigation Bar
+
+Present on all four pages, the responsive navigation bar features links to each page of the site, providing an easy and intuitive navigation experience. This navigation scheme ensures seamless exploration of the site on all devices. The navigation bar includes an indicator that shows the user which page of the site they are currently on. This is implemented as an underline beneath the name of the current page on the navigation bar.
+
+### Footer
+
+The footer includes a link to another related site and the author's email address, providing users with an easy way to explore additional content and contact the author.
+
+## User Experience
+
+### Strategy
+The strategy behind the Lucid Dreaming website is to provide an engaging, intuitive, and informative platform for users interested in the concept of lucid dreaming. The design approach is user-centric, focusing on ease of navigation and providing relevant and trustworthy information in one place.
+
+### Structure
+The website is structured into four distinct pages, each dedicated to a specific aspect of lucid dreaming: Home, Dreaming, Science, and Thoughts. This clear separation of content allows users to effortlessly find the information they're interested in.
+
+### User Stories
+The site caters to two main user groups: newcomers to the concept of lucid dreaming and experienced lucid dreamers looking for additional resources.
+
+1. As a new user, I want to understand what lucid dreaming is and how I can achieve it.
+2. As an experienced user, I want to find additional resources and scientific perspectives on lucid dreaming.
+3. As a user, I want to easily navigate the website and quickly find the information I'm looking for.
+
+### Interaction Design
+The interaction design of the website is driven by the need for simplicity and intuitiveness. It uses three types of buttons for different actions: internal links, external links, and form submissions. The distinct visual and interactive design of these buttons provides users with a clear understanding of the button's function. 
+
+All links leading to external sites are designed to open in new tabs, allowing users to explore these resources without navigating away from the Lucid Dreaming website.
+
+Moreover, a unique aspect of the site's design is that certain buttons, specifically on the Lucid-Dreaming and Out-Of-Body pages, also serve as active links. By default, buttons are not links, but to enhance user interaction, I have utilized my CSS knowledge and used the `get` method, inserting the desired URL in the action attribute. This means that even though there is no form to be submitted, clicking on these buttons will still open the associated link.
+
+### Navigation Design
+The navigation is streamlined and consistent across all pages. An underline indicator on the navigation bar highlights the current page, helping users understand where they are within the website. This design element enhances the user's ability to navigate the site efficiently.
+
+### Information Architecture
+The information on the website is organized logically and accessibly. The homepage gives a brief overview of lucid dreaming, and the subsequent pages delve into more detailed aspects of the subject. This hierarchy of information helps guide the user through their exploration of lucid dreaming.
 
 ## Testing
 + The site was tested in Mozilla-Firefox, Microsoft-Edge and Google-Chrome, on different screensizes and devices. Reduced and increased, no problems seen. 
