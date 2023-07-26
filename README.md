@@ -115,7 +115,7 @@ Manual testing of all links and necessary features was done in previously mentio
 |Home navigation   |When clicked the home page will open |Clicked Home on the Nav bar|Home page opened when clicked|
 |Active navigation link|The navigation link of the current page is underlined|Navigate to a page|The navigation link for the current page is underlined, indicating to the user their current location on the site|
 |Hero image|Will zoom in on page load|Open or refreshed the Home page|Performs the zoom effect correctly|
-|Ext. link buttoms|On hover will action animated. Click event link to new window|Hover and clicked the button|On hover cction animated. Link opened in new window|
+|Ext. link buttoms|On hover will action animated. Click event link to new window|Hover and clicked the button|On hover action animated. Link opened in new window|
 |Form submit button|Form submits when submit button is clicked. The result opens in new window|Clicked the submit button on the form.| The form succesfully submitted on click. The result opened in new window|
 |Video object|User has full control from opening the page, To play upon request and not at startup|Opening the page. Play video|Video does't play at startup. The video is full controlled|
 
@@ -167,7 +167,7 @@ During the development process, various bugs were encountered. However, through 
 
 ### Unfixed Bugs
 
--by testing by [official W3C validator](https://validator.w3.org/) no error was found.
+By testing by [official W3C validator](https://validator.w3.org/) no error was found.
 
 ### Fixed Bugs
 
@@ -200,7 +200,7 @@ The project was deployed to GitHub Pages using the following steps:
 
 1. Log in to GitHub and locate the GitHub Repository;
 2. At the top of the Repository itself, locate the "Setting" button on the menu;
-3. In the Settings page choose the "GitHub Pages" Section;
+3. In the Settings page choose the "GitHub Pages" section;
 4. In the "GitHub Pages", under "Source", click the dropdown called "None" and select the "Master
 Branch". The page should refresh automatically;
 5. Scroll down the page to locate the now published site link in the "GitHub Pages" section.
@@ -210,22 +210,20 @@ Branch". The page should refresh automatically;
 ### Content
 
 + The text for the Home page was partly taken from [remspace](https://remspace.net/).
-+ The rest of the text was composed by me and is my intellectual propertyю
-+ The idea how to add an onklick event to button was taken from [W3docs](https://www.w3docs.com/snippets/html/how-to-create-an-html-button-that-acts-like-a-link.html/)
-+ The instruction how to creat zoom-effect to Hero image was taken from [special tutorium from CodeInstitute](https://www.youtube.com/watch?v=nAqcFCD7SD8&t=246s&ab_channel=MediaUploa)
++ The rest of the text was composed by me and is my intellectual property.
++ The idea how to add an onklick event to button was taken from [W3docs](https://www.w3docs.com/snippets/html/how-to-create-an-html-button-that-acts-like-a-link.html/).
++ The instruction how to creat zoom-effect to Hero image was taken from [special tutorium from CodeInstitute](https://www.youtube.com/watch?v=nAqcFCD7SD8&t=246s&ab_channel=MediaUploa).
 + The instruction how to creat README file was taken from CodeInstitute Educational materials. [CodeInstituteREADME template](https://github.com/Code-Institute-Solutions/readme-template), Codeinstitute README presentation and [markdownlivepreview](https://markdownlivepreview.com/).
 + This reference list would not be complete without mentioning the beginner resourses for front-end at
-[W3Schools](https://w3schools.com)
+[W3Schools](https://w3schools.com).
 + And extensive notes and tips hosted at the [Mozilla Foundation]
 (developer.mozilla.org), the home of the worlds' best web browser Firefox.
-+ And, of course, a thanks goes
-to the friendly part of the [StackOverFlow](https://stackoverflow.com), for helping to pinpoint and fix the
-little bugs and features in my code.
++ And, of course, a thanks goes to the friendly part of the [StackOverFlow](https://stackoverflow.com), for helping to pinpoint and fix the little bugs and features in my code.
 
 ### Media
 
 1. Unless stated otherwise, the image for Lucid-Dreaming page I have AI-generated for non-profit use (education/student projects)
-via the [MidJourney](https://www.midjourney.com) neural network;
+via the [MidJourney](https://www.midjourney.com) neural network.
 2. The other images including Home page Hero image are licenced for non-profit use (education/student projects) via [DreamsTime](https://www.dreamstime.com/).
 3. The video is licenced via the [Pexels](https://pexels.com).
 
@@ -239,14 +237,14 @@ via the [MidJourney](https://www.midjourney.com) neural network;
 
 1. [Google Fonts](https://fonts.google.com/specimen/PT+Sans)
 
-+ The "Google fonts" tool was used to impoirt the fonts into the style.css file, which is used in this project.
++ The Google Fonts tool was used to import the fonts into the style.css file, which is used in this project.
 
 1. [PT Font Family](https://company.paratype.com/pt-sans-pt-serif)
 
-+ The fonts from the PT Family were chosed to make the website futureproof. As already mentioned, I
-plan on adding multilanguage support to this project, and the Paratype fonts are built around non-latin
++ The fonts from the PT Family were chosen to make the website future-proof. I
+plan on adding multilanguage support to this project, and the Paratype fonts are built around non-Latin
 characters, such as the Cyrillic alphabet and special charachters used in post-Soviet countries, which
-are very rare to find in fonts produced in the anglophone world. While dealing with an impressive amount
+are very rare to find in fonts produced in the anglophone world. Despite dealing with an impressive amount
 of letters from different language families, the PT font never compromises on aestetics - it has been created by the internationally acclaimed typeface designer [Alexandra Korolkova](https://en.wikipedia.org/wiki/Alexandra_Korolkova) and Olga Umpelova.
 
 1. [GitHub](https://github.com/) - used for version control.
@@ -257,7 +255,7 @@ of letters from different language families, the PT font never compromises on ae
 
 ### Acknowledgements
 
-+ to Kay Welfare for great psyhological support and motivation.
++ To Kay Welfare for great psyhological support and motivation.
 + To my mentor Antonio Rodriguez for helping to resolve the technical questions.
 + I would like to mentions Openais ChatGPT, which gave me a huge opportunity to study quickly and very efficiently.
 + To the Code Institute slack community.
