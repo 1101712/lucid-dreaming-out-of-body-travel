@@ -24,7 +24,7 @@ header {
 }
 
 h1, h2, #logo, .logo1 {
-    font-family: PT Sans Caption, Arial;
+    font-family: "PT Sans Caption", Arial;
     letter-spacing: 3px;
     text-transform: uppercase;
     color: #555d50;
@@ -46,10 +46,11 @@ p {
 .menu {
     font-size: 110%;
     line-height: 75px;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .menu li {
-    float: right;
     list-style-type: none;
     margin-right: 30px;
 }
@@ -204,18 +205,20 @@ hr {
 }
 
 /*contact*/
-.contact {
-    margin: auto;
-}
-
-.contact {
-    margin: 2% 2% 5% 2%;
+.contact ul {
+    display: flex;
+    flex-direction: row;  /* sets the direction of the flex items */
+    align-items: center;  /* vertically aligns the flex items */
+    justify-content: flex-start;  /* horizontally aligns the flex items to the left */
+    padding-left: 0; /* Removes the default padding from the unordered list */
 }
 
 .contact li {
     height: 150px;
-    display: inline;
-    margin: 5% 2% 5% 1%;
+    display: inline-flex;  /* turns each list item into a flex container */
+    align-items: center;  /* vertically aligns the content inside the list item */
+    justify-content: center;  /* horizontally aligns the content inside the list item */
+    margin: 5% 2% 5% 1%;  
 }
 
 /*buttons to external link*/
