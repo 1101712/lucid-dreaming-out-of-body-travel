@@ -164,21 +164,34 @@ hr {
     border-radius: 50%;
 }
 
-/* images and video of dream, inter and out of body pages*/
-.left-about {
-    padding: 0px;
-    margin: 30px 0 20px 20px;
-    width: 48%;
-    float: left;
+/* images of lucid-dream and out-of-body pages*/
+.left-about, .right-about {
+    flex: 1;  /* This tells the browser to distribute the space equally between the left and right sections */
+    padding: 20px;  /* Add some space around the content */
+    box-sizing: border-box;  /* This makes sure that the padding is included in the element's total width and height */
 }
 
-.right-about {
-    padding-right: 20px;
-    margin: 30px 20px 20px 20px;
-    width: 48%;
-    float: right;
+/* Flexbox layout */
+.content-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
+.content-row {
+    display: flex;
+    flex-direction: row; /* Default to row on larger screens */
+    align-items: flex-start; /* Align items at the start of the container */
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.left-about, .right-about {
+    flex: 1;
+    padding: 20px;
+}
+
+/*video of inter.html*/
 #movie {
    display: block;
   margin: auto;
@@ -279,10 +292,8 @@ hr {
 /*media queries*/
 /*large*/
 @media screen and (min-width: 1511px) {
-    .right-about {
-        width: 45%;
-        float: right;
-        padding: 20px; /* corrected from padding: 20 */
+    .right-about, .left-about {
+        padding: 20px;
     }
 
     p {
@@ -292,10 +303,8 @@ hr {
 
 /* medium to large*/
 @media screen and (max-width: 1510px) {
-    .right-about {
-        width: 42%;
-        float: right;
-        padding-right: 20px;
+    .right-about, .left-about {
+        padding: 20px;
     }
 
     p {
@@ -318,15 +327,17 @@ hr {
 }
 /*minimum to medium*/
 @media screen and (max-width: 816px) {
-    .right-about {
-        width: 90%;
-        float: left;
-        padding-left: 5px;
-        padding-right: 20px;
+    .right-about, .left-about {
+        padding: 20px;   
     }
 
-    .left-about {
-        width: 80%;
+    .left-about img {
+        margin-left: 0;  /* Remove the left margin of images on dream and science pages on small screens */
+    }
+    
+    /* Change the direction of images and text on dream and science pages to column on smaller screens */
+    .content-row {
+        flex-direction: column;
     }
 
     p {

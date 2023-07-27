@@ -194,6 +194,18 @@ The assumption that the validator would analyze the HTML structure and CSS from 
 
 The root of this discrepancy was realized upon the discovery that submitting the webpage URL to the validator might include server-side code or other dynamic elements on the webpage, causing a distortion in the validation outcome.
 
+## Update - Flexbox Styling
+
+I have made significant changes to the website's layout by implementing CSS Flexbox. The changes offer improved responsiveness and a cleaner layout.
+
+### Changes Include
+
+1. **Flexbox Layout for Content Sections**: The main content sections of the website now use a Flexbox layout. This includes sections with image and text content, providing a flexible and responsive layout.
+
+2. **Improved Responsiveness**: The previous layout had some issues with responsiveness, particularly on smaller screen sizes. With Flexbox, the website now has a truly responsive design that adapts well to all screen sizes. The layout adjustments are handled through media queries, offering a mobile-first design approach.
+
+3. **Alignment Fixes**: In the previous version, there were some alignment issues with images and text on smaller screens. These have been corrected in the new Flexbox layout.
+
 ## Deployment
 
 The project was deployed to GitHub Pages using the following steps:
